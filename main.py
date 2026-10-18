@@ -38,3 +38,5 @@ def all_msg(m):
 
 keep()
 bot.infinity_polling()
+keep()
+bot.infinity_polling()
