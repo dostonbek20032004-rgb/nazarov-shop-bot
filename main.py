@@ -34,9 +34,9 @@ def menu(m):
 
 @bot.message_handler(func=lambda m: True)
 def all_msg(m):
-    bot.send_message(m.chat.id, "Menyu uchun /menu bosing 😊")
+    bot.send_message(m.chat.id, 
+"Menyu uchun /menu bosing 😊")
 
 keep()
 bot.infinity_polling()
-keep()
-bot.infinity_polling()
+
